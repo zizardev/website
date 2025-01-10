@@ -1,0 +1,1 @@
+A simple website using Html, CSS and JavaScript.

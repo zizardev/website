@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  background-color: #000000;
+  color: #00FF00;
+  font-family: "Jersey 15", serif;
+  height: 100%;
+}
+.man {
+  font-size: 50px;
+  padding: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.aboutt {
+  display: flex;
+  font-size: 45px
+}
+.avatar {
+  border-radius: 59px;
+}
+@media (max-width: 1000px) {
+  .aboutt {
+    display: block;
+    font-size: 24px;
+    text-align: center;
+  }
+}

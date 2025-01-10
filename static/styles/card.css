@@ -1,0 +1,14 @@
+.card {
+  display: block;
+  background-color: #003200;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.imga {
+  display: flex;
+} 
+#a {
+ width: 50px;
+ text-align: center;
+}

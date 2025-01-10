@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0D0D0D;
+}
+.title {
+  font-size: 80px;
+  padding-top: 10px;
+  padding-right: 100px;
+}
+
+.description {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 25px;
+  padding-right: 100px;
+}
+.description2 {
+  font-size: 50px;
+  text-align: center;
+  display: none;
+}
+.burger {
+  width: 100px;
+  display: block;
+  text-align: center;
+}
+
+.burger img {
+  width: 50px;
+  padding-top: 22px;
+}  
+.burger:hover .menu {
+  width: 100%;
+  display: block;
+}
+
+.menu, .menu2{ 
+  background-color: #0D0D0D;
+  display: none;
+  padding: 20px;
+  
+}
+ .menu a {
+   text-decoration: none;
+   font-size: 36px;
+   color: inherit;
+   text-align: center;
+} 
+.img {
+  display: flex;
+  justify-content: space-between;
+} 
+
+.burger2:hover .menu2 {
+  width: 100%;
+  display: block;
+}
+ 
+@media (max-width: 1000px) {
+  .description {
+    display: none;
+}
+  .description2 {
+    display: block;
+}
+}

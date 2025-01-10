@@ -1,0 +1,35 @@
+.lang {
+  display: flex;
+  justify-content: space-between;
+}
+.lang2 {
+  display: flex;
+  justify-content: center;
+  
+}
+.lang img {
+  width: 300px;
+  text-align: center;
+  padding: 25px;
+}
+.lang button{
+  background: none;
+  width: 100px;
+  border-style: none;
+}
+.lang .st {
+  width: 50px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+.lang img {
+  width: 120px;
+  text-align: center;
+  padding: 25px;
+}
+.lang .st {
+  width: 50px;
+  padding-bottom: 20px;
+}  
+}
